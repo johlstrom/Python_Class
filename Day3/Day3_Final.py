@@ -27,7 +27,7 @@ print("Your mission is to find the treasure.")
 
 #Write your code below this line 👇
 
-choice1 = input("You have 2 options, you can go left or right. Which way western man? ")
+choice1 = input("You have 2 options, you can go left or right. Please choose: ")
 
 if choice1.lower() == "left":
     choice2 = input("You have reached a river. Do you swim or wait? ")
