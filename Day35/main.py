@@ -33,7 +33,7 @@ if will_rain:
     message = client.messages \
         .create(
         body="It's going to rain today. Remeber to bring an ☂️",
-        from_='',
-        to=''
+        from_='whatsapp:+16503962863',
+        to='whatsapp:+46708919179'
     )
-print(message.sid)
+    print(message.sid)
